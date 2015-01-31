@@ -1,5 +1,0 @@
----
----
-# Daisies and Diapers
-
-Hello!
