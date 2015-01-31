@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>http://jhall523.github.io/</link>
+    <atom:link href="http://jhall523.github.io//feed.xml" rel="self" type="application/rss+xml" />
+    <description></description>
+    <language>en-us</language>
+    <pubDate>Sat, 31 Jan 2015 21:15:13 +0000</pubDate>
+    <lastBuildDate>Sat, 31 Jan 2015 21:15:13 +0000</lastBuildDate>
+
+    
+    
+    <item>
+      <title>Title</title>
+      <link>http://jhall523.github.io//2015/01/31/post/</link>
+      <pubDate>Sat, 31 Jan 2015 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://jhall523.github.io//2015/01/31/post</guid>
+      <description>&lt;p&gt;Body&lt;/p&gt;
+</description>
+    </item>
+    
+    
+
+  </channel> 
+</rss>

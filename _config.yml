@@ -1,14 +1,58 @@
-# Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+inc:
+  # Blog Information
+  title:        "Daisies and Diapers"
+  subtitle:     "The Messy and Beautiful Story of an Imperfect Mom"
+  cover_image:  blog-cover.jpg
+  logo:         logo.png
+  
+  # Company information
+  company:      Jen
+  url:          http://jhall523.github.io/
+  instagram:    jfhall
+  
+  # Comments
+  disqus:
+    # Eg. "exampleblog" Set to false to disable comments
+    shortname:  false
+  
+  # Sharing settings
+  sharing:
+    twitter:    false
+    facebook:   false
+  
+  # Analytics     
+  analytics:
+    google: false # Add tracking code in _includes/_analytics.html
+      
+  # Google Fonts
+  # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
+  google_font: 'Droid+Sans:400,700'
 
-# Build settings
-markdown: kramdown
+url: http://jhall523.github.io/
+baseurl: 
+exclude:
+- Gemfile
+- Gemfile.lock
+- README.md
+timezone: nil
+
+# Show future posts
+future: false
+show_drafts: nil
+limit_posts: 0
+
+relative_permalinks: true
+permalink: pretty
+paginate_path: 'page:num'
+paginate: 10
+
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions:
+  - fenced_code_blocks
+sass:
+  style: :compressed
+  sass_dir: _css
+
+excerpt_separator: "<!-- more -->"
